@@ -3,5 +3,6 @@
 resources:
 - kyverno-install.yaml
 - disallow-latest.yaml
+- disallow-priv.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
